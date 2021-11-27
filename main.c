@@ -23,11 +23,12 @@
 int main() {
     char ch;
     while (ch != 'D') {
-        printf("Enter a ch: A/B/C/D\n");
+        printf("Enter one of the chars: A/B/C/D\n");
         scanf("%s", &ch);
         printf("You entered %s \n", &ch);
         switch (ch) {
             case 'A':;
+                printf("Enter %d numbers: ", (SIZE*SIZE));
                 int arr[SIZE][SIZE];
                 for (int i = 0; i < SIZE; i++) {
                     for (int j = 0; j < SIZE; j++) {
