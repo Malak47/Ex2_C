@@ -19,4 +19,4 @@ connections: main.o my_mat.so
 .PHONY: clean all
 
 clean:
-	-del -fR *.o *.so connections
+	del -fr *.o *.so *.exe
